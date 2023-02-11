@@ -1,0 +1,68 @@
+* {
+  background: darkslategray;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  text-align: center;
+}
+.span {
+  color: blanchedalmond;
+}
+.input-div,
+.list-div {
+  width: 700px;
+  text-align: center;
+  align-items: center;
+}
+.input-div input {
+  width: 700px;
+}
+.btn {
+  width: 90px;
+  background-color: rgb(136, 136, 136);
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  width: 110px;
+  background-color: cadetblue;
+  color: blanchedalmond;
+  transition: ease-in-out 1s;
+}
+.list-div {
+  height: 100px;
+  background-image: linear-gradient(
+    rgb(78, 78, 74),
+    rgb(129, 129, 129),
+    rgb(78, 78, 74)
+  );
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.list-div ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  background-color: transparent;
+  color: blanchedalmond;
+}
+.del-btn {
+  background-color: brown;
+  color: blanchedalmond;
+  border-radius: 5px;
+}
+.del-btn:hover {
+  background-color: rgb(235, 92, 92);
+}
